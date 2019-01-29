@@ -1,7 +1,5 @@
 /** \file gasret.c
-       \author Bernardo Tomelleri & Juan Pablo Bueno Siqueiros
-     Si dichiara che il contenuto di questo file e' in ogni sua parte opera
-     originale degli  autori.  */
+       \author Bernardo Tomelleri **/
 	 
 #include <stdio.h>
 #include <stdlib.h>
