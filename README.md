@@ -1,5 +1,5 @@
 # GASRET
-Studio della diffusione di un gas di particelle libere in un reticolo quadrato di due dimensioni, D = 2: Il reticolo ha un numero totale di siti V dato dal quadrato del numero di siti per dimensione (V = L^2).
+Studio della diffusione di un gas di particelle libere in un reticolo quadrato di due dimensioni, ![equation](https://latex.codecogs.com/gif.latex?D%3D2): Il reticolo ha un numero totale di siti V dato dal quadrato del numero di siti per dimensione ![equation](https://latex.codecogs.com/gif.latex?%28V%3DL%5E2%29).
 I siti del reticolo sono occupati da N particelle che vengono collocate casualmente sul reticolo all’inizio della simulazione. Ogni particella è numerata (da 0 a  N − 1) e mantiene la sua identita. Ad ogni passo della simulazione viene selezionata casualmente una delle particelle, che sceglie ancora casualmente uno dei 4 siti adiacenti su cui spostarsi. Se il sito scelto è vuoto, la particella si sposta nel nuovo sito, liberando quello in cui si trova, altrimenti la situazione rimane invariata. Il reticolo che utilizziamo ha condizioni periodiche di bordo, ovvero una particella che esce dal lato destro rientra dal lato sinistro, e lo stesso accade per il
 bordo superiore e inferiore. In particolare, la simulazione inizia all’istante t = 0 e per passare dall’istante t all’istante t + 1 si effettuano i seguenti passi:
 
